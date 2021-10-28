@@ -17,6 +17,12 @@ export const Container = styled.div`
     grid-row-gap: 0.5rem;
   }
 `;
+
+export const Span = styled.span`
+  font-size: 2rem;
+  margin-left: 10px;
+`;
+
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
@@ -116,7 +122,7 @@ color: white;
 border-radius: 50px;
   padding: 8px;
 &:hover {
-    background-color: #212d45;
+    background-color: #a2b9bc;
     transform: scale(1.2);
     cursor: pointer;
     
