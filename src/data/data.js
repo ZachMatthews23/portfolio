@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'MERN Capstone',
-    description: "This application showcases user authentication using express-jwt and bcrypt. The database uses MongoDB in order to create, store and maintain its data. This is a single page responsize application utilizing React.js. It is my first self directed, large scale, full stack application whose intended audience is fitness enthusiasts.",
+    description: "This application showcases user authentication using express-jwt and bcrypt. The database uses MongoDB in order to create, store, and maintain its data. This is a single page responsive application utilizing React.js. It is my first self directed, large scale, full stack application whose intended audience is fitness enthusiasts.",
     video: '/images/1.mp4',
     tags: ['MongoDB', 'Express', 'React.js', 'Node.js'],
     source: 'https://github.com/ZachMatthews23/assignments/tree/main/Level%206/lvl6-capstone',
@@ -9,10 +9,10 @@ export const projects = [
   },
   {
     title: 'E-Commerce',
-    description:"This application was created to imitate a store front for an extreme sports business. It utilizes React Redux on the front-end and MongoDB Atlas to store its data, as well as Express, Mongoose and Morgan to support the back-end. This application was developed as a part of a small group, and was created using git workflows and best practices.",
+    description:"This application was created to imitate a store front for an extreme sports business. It utilizes React Redux on the front-end and MongoDB Atlas to store its data, as well as Express, Mongoose, and Morgan to support the back-end. This application was developed as a part of a small group, and was created using git workflows and best practices.",
     video: '/images/2.mp4',
     tags: ['MongoDB', 'Express', 'React.js', 'Node.js'],
-    source: 'https://github.com/ZachMatthews23/level-5-capstone',
+    source: 'https://github.com/ZachMatthews23/level5-capstone',
     id: 1,
   }
 ];

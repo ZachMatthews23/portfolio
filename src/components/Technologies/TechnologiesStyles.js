@@ -133,5 +133,6 @@ export const ListIcon = styled.img`
 `;
 
 export const Grid = styled.div`
-  
+  display: flex;
+  gap: 3px;
 `;

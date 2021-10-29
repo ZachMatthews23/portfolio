@@ -1,7 +1,8 @@
 import React from 'react';
-import { DiReact, DiCss3, DiDatabase, DiGit, DiHtml5, DiJsBadge, DiMongodb, DiNodejs, DiStackoverflow, DiVisualstudio} from 'react-icons/di';
+import { DiReact, DiCss3, DiDatabase, DiGit, DiHtml5, DiJsBadge, DiMongodb, DiNodejs, DiTerminal, DiTrello, DiBootstrap} from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle, Grid } from './TechnologiesStyles';
+import { SiJsonwebtokens } from 'react-icons/si'
 
 const Technologies = () =>  (
   <Section id="tech">
@@ -24,9 +25,9 @@ const Technologies = () =>  (
           <ListTitle>Front-end</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js <br/>
-            JavaScript< br/>
-            HTML5 <br/>
+            React.js <br />
+            JavaScript< br />
+            HTML5 <br />
             CSS3
           </ListParagraph>
         </ListContainer>
@@ -36,32 +37,35 @@ const Technologies = () =>  (
           <DiDatabase size="3.5rem"/>
           <DiMongodb size="3.5rem"/>
           <DiNodejs size="3.5rem"/>
+          <SiJsonwebtokens size="3.5rem"/>
         </Grid>
         <ListContainer>
           <ListTitle>Back-end</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Databases <br/>
-            MongoDB <br/>
-            Node.js <br/>
-            Express <br/>
-            Mongoose <br/>
+            Databases <br />
+            MongoDB <br />
+            Node.js <br />
+            Express <br />
+            Mongoose <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <Grid>
+          <DiBootstrap size="3.5rem"/>
           <DiGit size="3.5rem"/>
-          <DiStackoverflow size="3.5rem"/>
-          <DiVisualstudio size="3.5rem"/>
+          <DiTrello size="3.5rem"/>
+          <DiTerminal size="3.5rem" />
         </Grid>
         <ListContainer>
-          <ListTitle>Tools</ListTitle>
+          <ListTitle>Miscellaneous</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Git <br/>
-            Stack Overflow <br/>
-            VS Code
+            Bootstrap <br />
+            Git <br />
+            Trello <br />
+            Terminal
           </ListParagraph>
         </ListContainer>
       </ListItem>

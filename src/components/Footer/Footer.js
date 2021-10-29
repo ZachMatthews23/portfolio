@@ -17,8 +17,7 @@ const Footer = () => {
           <LinkItem href="mailto:zachmatthews010@gmail.com">zachmatthews010@gmail.com</LinkItem>
         </LinkColumn>
         <LinkColumn>
-          <LinkTitle>Resume</LinkTitle>
-          <LinkItem href="../images/resume.pdf">Resume</LinkItem>
+          
         </LinkColumn>
         <LinkColumn>
           <Profile src="../images/profile.png" />

@@ -8,11 +8,11 @@ const Main = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Hello and Welcome to <br/>
-        my Professional Portfolio
+        Welcome, I'm Zach Matthews <br/>
+        Full Stack Web Developer
       </SectionTitle>
       <SectionText>
-        This is where I want to talk about how I can add value and some of my strengths.
+        Dedicated to learning | Leadership abilities | Relentless work ethic
       </SectionText>
       <Button onClick={() => window.location = 'https://www.linkedin.com/in/zachary-matthews-734647171/'}>Learn More</Button>
     </LeftSection>
