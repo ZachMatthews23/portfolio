@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Img = styled.img`
+export const Video = styled.video`
   width:100%;
   height:100%;
   object-fit: cover;
@@ -42,7 +42,7 @@ export const TitleContent = styled.div`
 export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
-  color: #9cc9e3;
+  color: #b2ad7f;
   padding: .5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
@@ -52,7 +52,7 @@ export const Hr = styled.hr`
   height: 3px;
   margin: 20px auto;
   border: 0;
-  background: #d0bb57;
+  background: #a2b9bc;
 `;
 
 export const Intro = styled.div`
