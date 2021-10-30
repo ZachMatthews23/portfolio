@@ -115,10 +115,10 @@ export const SocialContainer = styled.div`
 
 export const LinkList = styled.ul`
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
-  display: grid;
+  	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	gap: 40px;
-  padding: 40px 0 28px;
+  	padding: 40px 0 28px;
 
 	@media ${props => props.theme.breakpoints.lg} {
 		padding: 32px 0 16px;
@@ -135,7 +135,8 @@ export const LinkList = styled.ul`
 		padding: 32px 4px 16px;
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
-		gap: 40px;
+		gap: 20px;
+		
 	}
 `
 

@@ -70,10 +70,9 @@ export const CarouselItemTitle = styled.h4`
   line-height: 32px;
   letter-spacing: 0.02em;
   display: flex;
-  /* This gradient is different due to the size of the Title container, it must transition sooner to be visible on the text */
-  background: linear-gradient(121.57deg, #FFFFFF 10%, rgba(255, 255, 255, 0.66) 30.15%);
+  background: linear-gradient(121.57deg, #FFFFFF, rgba(255, 255, 255, 0.66));
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
   margin-bottom: 8px;
 
   @media ${props => props.theme.breakpoints.md} {
@@ -85,17 +84,6 @@ export const CarouselItemTitle = styled.h4`
   @media ${props => props.theme.breakpoints.sm} {
     font-size: 16px;
     line-height: 24px;
-  }
-`
-export const CarouselItemImg = styled.svg`
-  margin-left: 21px;
-  -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
-  width: 100%;
-
-  @media ${props => props.theme.breakpoints.sm} {
-    -webkit-mask-image: none;
-    margin-left: 16px;
-    overflow: visible;
   }
 `
 
