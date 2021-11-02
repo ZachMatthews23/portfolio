@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Video } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../data/data';
@@ -9,9 +8,9 @@ const Projects = () => (
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
-      {projects.map(({ id, video, title, description, tags, source }) => (
+      {projects.map(({ id, video, title, description, tags, source, poster }) => (
         <BlogCard key={id}>
-          <Video controls src={video} type="video/mp4"/>
+          <Video preload="auto" poster={poster} controls src={video} type="video/mp4"/>
           <TitleContent>
             <HeaderThree title>{title}</HeaderThree>
             <Hr/>

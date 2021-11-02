@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { IoIosContact } from 'react-icons/io';
 import { HiOutlineCode } from 'react-icons/hi';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
@@ -32,11 +32,8 @@ const Header = () =>  (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com/ZachMatthews23">
-        <AiFillGithub size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com/in/zachary-matthews-734647171/">
-        <AiFillLinkedin size="3rem" />
+      <SocialIcons href="https://www.linkedin.com/in/zachary-matthews-734647171/detail/contact-info/">
+        <IoIosContact size="3.5rem" />
       </SocialIcons>
     </Div3>
   </Container>

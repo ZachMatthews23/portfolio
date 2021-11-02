@@ -14,7 +14,7 @@ const Main = () => (
       <SectionText>
         Dedicated to learning | Leadership abilities | Relentless work ethic
       </SectionText>
-      <Button onClick={() => window.location = 'https://www.linkedin.com/in/zachary-matthews-734647171/'}>Learn More</Button>
+      <Button onClick={() => window.scrollTo(0,document.body.scrollHeight)}>Contact Me</Button>
     </LeftSection>
   </Section>
 );
