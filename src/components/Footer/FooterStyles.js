@@ -133,8 +133,10 @@ export const LinkList = styled.ul`
 	@media ${props => props.theme.breakpoints.sm} {
 		width: 100%;
 		padding: 32px 4px 16px;
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
+		display: flex;
+		flex-direction: column;
+		justify-content: middle;
+		padding-left: 105px;
 		gap: 20px;
 		
 	}
